@@ -184,24 +184,24 @@ function addCss(){
     `;  
     document.getElementsByTagName('head')[0].appendChild(e);
 }
-//function addBtnHome() {
-  // var referrer = document.referrer.toLowerCase();
-  //if (referrer.indexOf("https://ubg76.github.io/") !== -1) {
-    //var e = document.createElement('button');
- //   e.className = 'in-game-button2'; // change class to 'in-game-button2'
-//    e.id = 'inGame';
- //   e.innerHTML = `
- //     <img src="https://ubg76.github.io/playbutton.png" width="300px" height="162px" alt="PLAY GAME UNBLOCKED">`;
- //   document.getElementsByTagName('body')[0].appendChild(e);
- // } else {
- //   var e = document.createElement('button');
- //   e.className = 'in-game-button';
- //   e.id = 'inGame';
- //   e.innerHTML = `
- //     <img src="https://ubg76.github.io/Ubg76.png" width="150px" height="60px" alt="76 EZ GAMES">`;
-//    document.getElementsByTagName('body')[0].appendChild(e);
-//  }
-// }
+function addBtnHome() {
+  var referrer = document.referrer.toLowerCase();
+  if (referrer.indexOf("https://ubg76.github.io/") !== -1) {
+    var e = document.createElement('button');
+   e.className = 'in-game-button2'; // change class to 'in-game-button2'
+   e.id = 'inGame';
+  e.innerHTML = `
+    <img src="https://ubg76.github.io/playbutton.png" width="300px" height="162px" alt="PLAY GAME UNBLOCKED">`;
+   document.getElementsByTagName('body')[0].appendChild(e);
+  } else {
+    var e = document.createElement('button');
+   e.className = 'in-game-button';
+   e.id = 'inGame';
+    e.innerHTML = `
+     <img src="https://ubg76.github.io/Ubg76.png" width="150px" height="60px" alt="76 EZ GAMES">`;
+    document.getElementsByTagName('body')[0].appendChild(e);
+  }
+ }
 
 
 function loadFirebase(){
