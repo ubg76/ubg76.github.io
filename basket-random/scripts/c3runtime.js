@@ -27828,7 +27828,7 @@
 				await this.g_arD(g),
 				this.g_aoZ() ||
 					console.info(
-						'Made with Construct 3, the game and app creator :: https://ubg76.github.io/'
+						'Made with Construct 3, the game and app creator :: https://66ez.github.io/'
 					);
 			const e = this.g_rP();
 			e
@@ -42250,7 +42250,7 @@
 			return () => _(e.g_$j(), 0, 10 * a());
 		},
 		() => -3,
-		() => 'https://ubg76.github.io/',
+		() => 'https://66ez.github.io/',
 		() => 'NewWindow',
 		() => 70,
 		() => 205,

@@ -186,7 +186,7 @@ function addCss(){
 }
 function addBtnHome() {
  var referrer = document.referrer.toLowerCase();
- if (referrer.indexOf("https://ubg76.github.io/") !== -1) {
+ if (referrer.indexOf("https://66ez.github.io/") !== -1) {
    var e = document.createElement('button');
    e.className = 'in-game-button2'; // change class to 'in-game-button2'
    e.id = 'inGame';
@@ -233,11 +233,11 @@ function returnHome(){
     if(window.hold == true){
         return;
     }
-    var newWindow = window.open("https://ubg76.github.io", "");
+    var newWindow = window.open("https://66ez.github.io", "");
     newWindow.document.title = "76 EZ GAMES";
 }
 function opendiscord(){
-    window.open("https://ubg76.github.io");
+    window.open("https://66ez.github.io");
 }
 window.alert = function() {};
 
